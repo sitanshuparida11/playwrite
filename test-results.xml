@@ -1,44 +1,307 @@
-<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="9.801788000047207">
-<testsuite name="Chapter05\TC_02_Datadriven.spec.ts" timestamp="2025-06-15T11:23:49.986Z" hostname="chromium" tests="3" failures="1" skipped="0" time="5.366" errors="0">
-<testcase name="Data-driven Test for user: standard_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="2.897">
+<testsuites id="" name="" tests="43" failures="2" skipped="38" errors="0" time="204.922107">
+<testsuite name="Chapter01\TC_01_Recordtest.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="0" time="8.212" errors="0">
+<testcase name="test" classname="Chapter01\TC_01_Recordtest.spec.ts" time="8.212">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-TC_01_Recordtest-test-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\Chapter01-TC_01_Recordtest-test-chromium\video.webm]]
+]]>
+</system-out>
 </testcase>
-<testcase name="Data-driven Test for user: locked_out_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="1.882">
-<failure message="TC_02_Datadriven.spec.ts:12:7 Data-driven Test for user: locked_out_user" type="FAILURE">
-<![CDATA[  [chromium] › Chapter05\TC_02_Datadriven.spec.ts:12:7 › Data-driven Test for user: locked_out_user 
+</testsuite>
+<testsuite name="Chapter01\TC_02_Firsttest.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="0" time="87.064" errors="0">
+<testcase name="Navigate" classname="Chapter01\TC_02_Firsttest.spec.ts" time="87.064">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-TC_02_Firsttest-Navigate-chromium\test-finished-1.png]]
 
-    Error: Timed out 1000ms waiting for expect(locator).toHaveURL(expected)
+[[ATTACHMENT|test-results\Chapter01-TC_02_Firsttest-Navigate-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Chapter01\TC_04_Recordplay.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.583" errors="0">
+<testcase name="Shop at At&amp;t" classname="Chapter01\TC_04_Recordplay.spec.ts" time="6.583">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter01-TC_04_Recordplay-Shop-at-At-t-chromium\test-finished-1.png]]
 
-    Locator: locator(':root')
-    Expected string: "https://www.saucedemo.com/v1/inventory.html"
-    Received string: "https://www.saucedemo.com/v1/index.html"
+[[ATTACHMENT|test-results\Chapter01-TC_04_Recordplay-Shop-at-At-t-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Chapter01\TC03_RecordatCursor.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="1" skipped="0" time="89.032" errors="0">
+<testcase name="Record at Cursor" classname="Chapter01\TC03_RecordatCursor.spec.ts" time="89.032">
+<failure message="TC03_RecordatCursor.spec.ts:5:5 Record at Cursor" type="FAILURE">
+<![CDATA[  [chromium] › Chapter01\TC03_RecordatCursor.spec.ts:5:5 › Record at Cursor ────────────────────────
+
+    Error: locator.click: Target page, context or browser has been closed
     Call log:
-      - expect.toHaveURL with timeout 1000ms
-      - waiting for locator(':root')
-        5 × locator resolved to <html>…</html>
-          - unexpected value "https://www.saucedemo.com/v1/index.html"
+      - waiting for getByRole('link', { name: 'Playwright by Testers Talk☑️' }).first()
 
 
-      15 |     await page.locator('[id="password"]').fill(data.password);
-      16 |     await page.click('[id="login-button"]');
-    > 17 |     await expect(page).toHaveURL("https://www.saucedemo.com/v1/inventory.html");
-         |                        ^
-      18 |     await page.close();
-      19 |   });
-      20 | }
-        at D:\Bakka Playwright\tests\Chapter05\TC_02_Datadriven.spec.ts:17:24
+       7 | await page.getByRole('combobox', { name: 'Search' }).fill("Playwright by testers talk");
+       8 | await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+    >  9 | await page.getByRole('link', { name: 'Playwright by Testers Talk☑️' }).first().click();
+         |                                                                                ^
+      10 | await expect(page).toHaveTitle("Playwright by Testers Talk☑️ - YouTube");
+      11 | await expect(page.getByRole('link', { name: 'Playwright Tutorial Full' })).toBeVisible();
+      12 | await expect(page.locator('ytd-playlist-video-list-renderer')).toContainText('Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial');
+        at D:\Bakka Playwright\tests\Chapter01\TC03_RecordatCursor.spec.ts:9:80
 
-    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    test-results\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\test-failed-1.png
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\error-context.md
 ]]>
 </failure>
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\test-failed-1.png]]
+[[ATTACHMENT|test-results\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\error-context.md]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="Data-driven Test for user: problem_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="0.587">
+</testsuite>
+<testsuite name="Chapter02\TC_01_Screenshots.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="1" skipped="0" time="5.345" errors="0">
+<testcase name="Establish Screen-shot" classname="Chapter02\TC_01_Screenshots.spec.ts" time="5.345">
+<failure message="TC_01_Screenshots.spec.ts:5:5 Establish Screen-shot" type="FAILURE">
+<![CDATA[  [chromium] › Chapter02\TC_01_Screenshots.spec.ts:5:5 › Establish Screen-shot ─────────────────────
+
+    Error: page.screenshot: Target page, context or browser has been closed
+    Call log:
+      - taking page screenshot
+      - waiting for fonts to load...
+      - fonts loaded
+
+
+      14 |
+      15 |    //FullPage
+    > 16 |    await page.screenshot({path: './screen-shots/Fullpage.png', fullPage:true});
+         |               ^
+      17 | })
+        at D:\Bakka Playwright\tests\Chapter02\TC_01_Screenshots.spec.ts:16:15
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_02_Locaters.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0.576" errors="0">
+<testcase name="Locaters" classname="Chapter02\TC_02_Locaters.spec.ts" time="0.576">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_03_Hooks.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Navigate1" classname="Chapter02\TC_03_Hooks.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Navigate2" classname="Chapter02\TC_03_Hooks.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_04_Drop-down.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Handling drop-down" classname="Chapter02\TC_04_Drop-down.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_05_Iframes_dragdrop.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Handling drag-drop" classname="Chapter02\TC_05_Iframes_dragdrop.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_06_Mouseactions.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter02\TC_06_Mouseactions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_07_Keyboardactions.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter02\TC_07_Keyboardactions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_08_Datepicker.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter02\TC_08_Datepicker.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_09_Assertions.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter02\TC_09_Assertions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter02\TC_10_Softassertions.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter02\TC_10_Softassertions.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_01_Annotations.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter03\TC_01_Annotations.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Mouse Actions 2" classname="Chapter03\TC_01_Annotations.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_02_Grouptests.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Regression › Mouse Actions" classname="Chapter03\TC_02_Grouptests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Regression › Mouse Actions 2" classname="Chapter03\TC_02_Grouptests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_03_Tags.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Tags" classname="Chapter03\TC_03_Tags.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Tags 2" classname="Chapter03\TC_03_Tags.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_04_Retry.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Tags" classname="Chapter03\TC_04_Retry.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_05_Parameterization.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Parameterize sitanshuparida@bt.com" classname="Chapter03\TC_05_Parameterization.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Parameterize dhirajyallal@bt.com" classname="Chapter03\TC_05_Parameterization.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Parameterize prernagupta@bt.com" classname="Chapter03\TC_05_Parameterization.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_06_VisualTest.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Visual test" classname="Chapter03\TC_06_VisualTest.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter03\TC_07_Timeouts.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Timeouts" classname="Chapter03\TC_07_Timeouts.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter04\TC_01_Browsercntx.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Browsertab" classname="Chapter04\TC_01_Browsercntx.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter04\TC_02_Rerunfailedtests.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Regression › Mouse Actions" classname="Chapter04\TC_02_Rerunfailedtests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Regression › Mouse Actions 2" classname="Chapter04\TC_02_Rerunfailedtests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter04\TC_03_Alertspopup.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Alerts" classname="Chapter04\TC_03_Alertspopup.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Alerts - Confirmation" classname="Chapter04\TC_03_Alertspopup.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Alerts - Prompt" classname="Chapter04\TC_03_Alertspopup.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter04\TC_04_TestReports.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="Regression › Mouse Actions" classname="Chapter04\TC_04_TestReports.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Regression › Mouse Actions 2" classname="Chapter04\TC_04_TestReports.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter04\TC_05_Radiobutton.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Mouse Actions" classname="Chapter04\TC_05_Radiobutton.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter05\TC_01_ReadEnvfile.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Read Environment Variables" classname="Chapter05\TC_01_ReadEnvfile.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Chapter05\TC_02_Datadriven.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Data-driven Test for user: standard_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Data-driven Test for user: locked_out_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Data-driven Test for user: problem_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="2" failures="0" skipped="2" time="0" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="Login.spec.js" timestamp="2025-07-29T13:56:11.180Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Read Environment Variables" classname="Login.spec.js" time="0">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>

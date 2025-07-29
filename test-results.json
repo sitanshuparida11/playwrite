@@ -65,12 +65,1220 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.52.0",
     "workers": 1,
     "webServer": null
   },
   "suites": [
+    {
+      "title": "Chapter01\\TC_01_Recordtest.spec.ts",
+      "file": "Chapter01/TC_01_Recordtest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8212,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Navigation",
+                      "duration": 5501
+                    },
+                    {
+                      "title": "Enter login details",
+                      "duration": 622
+                    },
+                    {
+                      "title": "Sign In",
+                      "duration": 602
+                    },
+                    {
+                      "title": "Validate the text",
+                      "duration": 165
+                    }
+                  ],
+                  "startTime": "2025-07-29T13:56:12.607Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_01_Recordtest-test-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_01_Recordtest-test-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c6ca82bafb847462a933-f787c44c052ff77d839f",
+          "file": "Chapter01/TC_01_Recordtest.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter01\\TC_02_Firsttest.spec.ts",
+      "file": "Chapter01/TC_02_Firsttest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 87064,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-29T13:56:21.480Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_02_Firsttest-Navigate-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_02_Firsttest-Navigate-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f5034c383c4d3a97b0f1-6cb74fbb7152a147bbce",
+          "file": "Chapter01/TC_02_Firsttest.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter01\\TC_04_Recordplay.spec.ts",
+      "file": "Chapter01/TC_04_Recordplay.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Shop at At&t",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6583,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-29T13:57:48.579Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_04_Recordplay-Shop-at-At-t-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC_04_Recordplay-Shop-at-At-t-chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9a3732f06c3167442c5c-3643193614f5b88f9741",
+          "file": "Chapter01/TC_04_Recordplay.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter01\\TC03_RecordatCursor.spec.ts",
+      "file": "Chapter01/TC03_RecordatCursor.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Record at Cursor",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 89032,
+                  "error": {
+                    "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk☑️' }).first()\u001b[22m\n",
+                    "stack": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk☑️' }).first()\u001b[22m\n\n    at D:\\Bakka Playwright\\tests\\Chapter01\\TC03_RecordatCursor.spec.ts:9:80",
+                    "location": {
+                      "file": "D:\\Bakka Playwright\\tests\\Chapter01\\TC03_RecordatCursor.spec.ts",
+                      "column": 80,
+                      "line": 9
+                    },
+                    "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m\"Playwright by testers talk\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright by Testers Talk☑️'\u001b[39m })\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"Playwright by Testers Talk☑️ - YouTube\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright Tutorial Full'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'ytd-playlist-video-list-renderer'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Bakka Playwright\\tests\\Chapter01\\TC03_RecordatCursor.spec.ts",
+                        "column": 80,
+                        "line": 9
+                      },
+                      "message": "Error: locator.click: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk☑️' }).first()\u001b[22m\n\n\n\u001b[0m \u001b[90m  7 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mfill(\u001b[32m\"Playwright by testers talk\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m  8 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'combobox'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Search'\u001b[39m })\u001b[33m.\u001b[39mpress(\u001b[32m'Enter'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright by Testers Talk☑️'\u001b[39m })\u001b[33m.\u001b[39mfirst()\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 10 |\u001b[39m \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m\"Playwright by Testers Talk☑️ - YouTube\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 11 |\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'link'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Playwright Tutorial Full'\u001b[39m }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 12 |\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'ytd-playlist-video-list-renderer'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Bakka Playwright\\tests\\Chapter01\\TC03_RecordatCursor.spec.ts:9:80\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-29T13:57:55.201Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\\video.webm"
+                    },
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter01-TC03_RecordatCursor-Record-at-Cursor-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Bakka Playwright\\tests\\Chapter01\\TC03_RecordatCursor.spec.ts",
+                    "column": 80,
+                    "line": 9
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "cc34c40629c7b63c40a3-db3a6681c04b40293d04",
+          "file": "Chapter01/TC03_RecordatCursor.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_01_Screenshots.spec.ts",
+      "file": "Chapter02/TC_01_Screenshots.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Establish Screen-shot",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5345,
+                  "error": {
+                    "message": "Error: page.screenshot: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n",
+                    "stack": "Error: page.screenshot: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n    at D:\\Bakka Playwright\\tests\\Chapter02\\TC_01_Screenshots.spec.ts:16:15",
+                    "location": {
+                      "file": "D:\\Bakka Playwright\\tests\\Chapter02\\TC_01_Screenshots.spec.ts",
+                      "column": 15,
+                      "line": 16
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m    \u001b[90m//FullPage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m    \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({path\u001b[33m:\u001b[39m \u001b[32m'./screen-shots/Fullpage.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m })\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Bakka Playwright\\tests\\Chapter02\\TC_01_Screenshots.spec.ts",
+                        "column": 15,
+                        "line": 16
+                      },
+                      "message": "Error: page.screenshot: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n\n\n\u001b[0m \u001b[90m 14 |\u001b[39m\n \u001b[90m 15 |\u001b[39m    \u001b[90m//FullPage\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m    \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mscreenshot({path\u001b[33m:\u001b[39m \u001b[32m'./screen-shots/Fullpage.png'\u001b[39m\u001b[33m,\u001b[39m fullPage\u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m})\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 17 |\u001b[39m })\u001b[0m\n\u001b[2m    at D:\\Bakka Playwright\\tests\\Chapter02\\TC_01_Screenshots.spec.ts:16:15\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-29T13:59:26.459Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\\video.webm"
+                    },
+                    {
+                      "name": "_error-context-0",
+                      "contentType": "text/markdown",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter02-TC_01_Screenshots-Establish-Screen-shot-chromium\\error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Bakka Playwright\\tests\\Chapter02\\TC_01_Screenshots.spec.ts",
+                    "column": 15,
+                    "line": 16
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "fa4b6682071786aa798c-31d38fcde9781ad76ebc",
+          "file": "Chapter02/TC_01_Screenshots.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_02_Locaters.spec.ts",
+      "file": "Chapter02/TC_02_Locaters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Locaters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "interrupted",
+                  "duration": 576,
+                  "error": {
+                    "message": "Error: browserContext.newPage: Test ended.",
+                    "stack": "Error: browserContext.newPage: Test ended."
+                  },
+                  "errors": [
+                    {
+                      "message": "Error: browserContext.newPage: Test ended."
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-07-29T13:59:34.493Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "12e05e0acf8a11e03d8e-e9a44d5b3894776428ac",
+          "file": "Chapter02/TC_02_Locaters.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_03_Hooks.spec.ts",
+      "file": "Chapter02/TC_03_Hooks.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2ab5e11e97fb1a34baca-e73c997de26109667bbe",
+          "file": "Chapter02/TC_03_Hooks.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Navigate2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2ab5e11e97fb1a34baca-1fa4d704b3c3462cafcb",
+          "file": "Chapter02/TC_03_Hooks.spec.ts",
+          "line": 27,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_04_Drop-down.spec.ts",
+      "file": "Chapter02/TC_04_Drop-down.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling drop-down",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "6f91d6fcecf52aae8c69-f5bdccd510615823f510",
+          "file": "Chapter02/TC_04_Drop-down.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_05_Iframes_dragdrop.spec.ts",
+      "file": "Chapter02/TC_05_Iframes_dragdrop.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling drag-drop",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5090e26a7c8d2ca2f45c-c9c6fbbe3953f71311f5",
+          "file": "Chapter02/TC_05_Iframes_dragdrop.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_06_Mouseactions.spec.ts",
+      "file": "Chapter02/TC_06_Mouseactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "190013d8717e4000d597-7a5c102b37b61d86ff41",
+          "file": "Chapter02/TC_06_Mouseactions.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_07_Keyboardactions.spec.ts",
+      "file": "Chapter02/TC_07_Keyboardactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "387ce33fc457526cca10-4b5a2060ed2abf93f2df",
+          "file": "Chapter02/TC_07_Keyboardactions.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_08_Datepicker.spec.ts",
+      "file": "Chapter02/TC_08_Datepicker.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ed81d2011b6c553b1c5b-0de77312066618d3b316",
+          "file": "Chapter02/TC_08_Datepicker.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_09_Assertions.spec.ts",
+      "file": "Chapter02/TC_09_Assertions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "35af001b1a2907f19400-c0aa3f0fa9ef7cb1d4fa",
+          "file": "Chapter02/TC_09_Assertions.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter02\\TC_10_Softassertions.spec.ts",
+      "file": "Chapter02/TC_10_Softassertions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "885978e9a0bff6af0a80-78604b4982ce2880f6d6",
+          "file": "Chapter02/TC_10_Softassertions.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_01_Annotations.spec.ts",
+      "file": "Chapter03/TC_01_Annotations.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7108e5d6fe1bf02db4e1-f3647cc564d6c9ca30d7",
+          "file": "Chapter03/TC_01_Annotations.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Mouse Actions 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "7108e5d6fe1bf02db4e1-b12e7061ab5d1c925ef5",
+          "file": "Chapter03/TC_01_Annotations.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_02_Grouptests.spec.ts",
+      "file": "Chapter03/TC_02_Grouptests.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Regression",
+          "file": "Chapter03/TC_02_Grouptests.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Mouse Actions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cc8cc40fca5ad1f4ed16-d2c844c33981f6eee266",
+              "file": "Chapter03/TC_02_Grouptests.spec.ts",
+              "line": 5,
+              "column": 5
+            },
+            {
+              "title": "Mouse Actions 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cc8cc40fca5ad1f4ed16-38f35cf52ae57cbb17c5",
+              "file": "Chapter03/TC_02_Grouptests.spec.ts",
+              "line": 12,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_03_Tags.spec.ts",
+      "file": "Chapter03/TC_03_Tags.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Tags",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "783ddc6f04e4623b74a8-3c8978b8ab6df434153f",
+          "file": "Chapter03/TC_03_Tags.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Tags 2",
+          "ok": true,
+          "tags": [
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "783ddc6f04e4623b74a8-c95650f355426aa61527",
+          "file": "Chapter03/TC_03_Tags.spec.ts",
+          "line": 11,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_04_Retry.spec.ts",
+      "file": "Chapter03/TC_04_Retry.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Tags",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "24227b2b280b46311a42-118baa12b0f03af28b61",
+          "file": "Chapter03/TC_04_Retry.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_05_Parameterization.spec.ts",
+      "file": "Chapter03/TC_05_Parameterization.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Parameterize sitanshuparida@bt.com",
+          "ok": true,
+          "tags": [
+            "bt.com"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44dcd3886c9fccccc022-4ac0cc1ad242a312b563",
+          "file": "Chapter03/TC_05_Parameterization.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Parameterize dhirajyallal@bt.com",
+          "ok": true,
+          "tags": [
+            "bt.com"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44dcd3886c9fccccc022-90bc0975b46f51f00a62",
+          "file": "Chapter03/TC_05_Parameterization.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "Parameterize prernagupta@bt.com",
+          "ok": true,
+          "tags": [
+            "bt.com"
+          ],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "44dcd3886c9fccccc022-faebfb6d8e7cc2694321",
+          "file": "Chapter03/TC_05_Parameterization.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_06_VisualTest.spec.ts",
+      "file": "Chapter03/TC_06_VisualTest.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Visual test",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "96466532f15c47482f48-309d422f87ef1d5c71c9",
+          "file": "Chapter03/TC_06_VisualTest.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter03\\TC_07_Timeouts.spec.ts",
+      "file": "Chapter03/TC_07_Timeouts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Timeouts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "f9f0888b7cbf43fe8b2a-69f1a1b3ae7f4bc99563",
+          "file": "Chapter03/TC_07_Timeouts.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter04\\TC_01_Browsercntx.spec.ts",
+      "file": "Chapter04/TC_01_Browsercntx.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Browsertab",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "980a3480bb3bdb86877c-f2beb68174c1128e57db",
+          "file": "Chapter04/TC_01_Browsercntx.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter04\\TC_02_Rerunfailedtests.spec.ts",
+      "file": "Chapter04/TC_02_Rerunfailedtests.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Regression",
+          "file": "Chapter04/TC_02_Rerunfailedtests.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Mouse Actions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d84d30f307f3dbda87bb-cab3fd0aa8c94196188b",
+              "file": "Chapter04/TC_02_Rerunfailedtests.spec.ts",
+              "line": 5,
+              "column": 5
+            },
+            {
+              "title": "Mouse Actions 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d84d30f307f3dbda87bb-420bd7d234252b09d172",
+              "file": "Chapter04/TC_02_Rerunfailedtests.spec.ts",
+              "line": 12,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter04\\TC_03_Alertspopup.spec.ts",
+      "file": "Chapter04/TC_03_Alertspopup.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Alerts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d475b3795a62f1bd8608-326bd0bb3d91b263ead8",
+          "file": "Chapter04/TC_03_Alertspopup.spec.ts",
+          "line": 6,
+          "column": 5
+        },
+        {
+          "title": "Alerts - Confirmation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d475b3795a62f1bd8608-a947596a40b632c27868",
+          "file": "Chapter04/TC_03_Alertspopup.spec.ts",
+          "line": 19,
+          "column": 5
+        },
+        {
+          "title": "Alerts - Prompt",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d475b3795a62f1bd8608-55d36e6af4d14c5cacba",
+          "file": "Chapter04/TC_03_Alertspopup.spec.ts",
+          "line": 33,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter04\\TC_04_TestReports.spec.ts",
+      "file": "Chapter04/TC_04_TestReports.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Regression",
+          "file": "Chapter04/TC_04_TestReports.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Mouse Actions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4afdb735820d183b37b4-b1a9a39284070eb35dba",
+              "file": "Chapter04/TC_04_TestReports.spec.ts",
+              "line": 5,
+              "column": 5
+            },
+            {
+              "title": "Mouse Actions 2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4afdb735820d183b37b4-b4d798fa38341627ad0a",
+              "file": "Chapter04/TC_04_TestReports.spec.ts",
+              "line": 13,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter04\\TC_05_Radiobutton.spec.ts",
+      "file": "Chapter04/TC_05_Radiobutton.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Mouse Actions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "595f0898d34f4d5ee460-296567fa2c611439e16f",
+          "file": "Chapter04/TC_05_Radiobutton.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Chapter05\\TC_01_ReadEnvfile.spec.ts",
+      "file": "Chapter05/TC_01_ReadEnvfile.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Read Environment Variables",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "dfef2dd4b1afada690a8-aa140663dd99dcfb12b5",
+          "file": "Chapter05/TC_01_ReadEnvfile.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
     {
       "title": "Chapter05\\TC_02_Datadriven.spec.ts",
       "file": "Chapter05/TC_02_Datadriven.spec.ts",
@@ -88,22 +1296,8 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 2897,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T11:23:51.056Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "6ccd34020f925acb7385-c8983a29b493f6c58daa",
@@ -113,7 +1307,7 @@
         },
         {
           "title": "Data-driven Test for user: locked_out_user",
-          "ok": false,
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -122,57 +1316,8 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 1882,
-                  "error": {
-                    "message": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n",
-                    "stack": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n\n    at D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts:17:24",
-                    "location": {
-                      "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
-                      "column": 24,
-                      "line": 17
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[id=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(data\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[id=\"login-button\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://www.saucedemo.com/v1/inventory.html\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m }\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
-                        "column": 24,
-                        "line": 17
-                      },
-                      "message": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[id=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(data\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[id=\"login-button\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://www.saucedemo.com/v1/inventory.html\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m }\u001b[0m\n\u001b[2m    at D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts:17:24\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T11:23:54.520Z",
-                  "annotations": [],
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "D:\\Bakka Playwright\\test-results\\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "_error-context",
-                      "contentType": "application/json",
-                      "body": "eyJwYWdlU25hcHNob3QiOiItIHRleHRib3ggXCJVc2VybmFtZVwiOiBsb2NrZWRfb3V0X3VzZXJcbi0gdGV4dGJveCBcIlBhc3N3b3JkXCI6IHNlY3JldF9zYXVjZVxuLSBidXR0b24gXCJMT0dJTlwiXG4tICdoZWFkaW5nIFwiRXBpYyBzYWRmYWNlOiBTb3JyeSwgdGhpcyB1c2VyIGhhcyBiZWVuIGxvY2tlZCBvdXQuXCIgW2xldmVsPTNdJzpcbiAgLSBidXR0b25cbiAgLSB0ZXh0OiBcIkVwaWMgc2FkZmFjZTogU29ycnksIHRoaXMgdXNlciBoYXMgYmVlbiBsb2NrZWQgb3V0LlwiXG4tIGltZ1xuLSBoZWFkaW5nIFwiQWNjZXB0ZWQgdXNlcm5hbWVzIGFyZTpcIiBbbGV2ZWw9NF1cbi0gdGV4dDogc3RhbmRhcmRfdXNlciBsb2NrZWRfb3V0X3VzZXIgcHJvYmxlbV91c2VyIHBlcmZvcm1hbmNlX2dsaXRjaF91c2VyXG4tIGhlYWRpbmcgXCJQYXNzd29yZCBmb3IgYWxsIHVzZXJzOlwiIFtsZXZlbD00XVxuLSB0ZXh0OiBzZWNyZXRfc2F1Y2UifQ=="
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
-                    "column": 24,
-                    "line": 17
-                  }
-                }
-              ],
-              "status": "unexpected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "6ccd34020f925acb7385-7884159ead7aac7e94a6",
@@ -191,22 +1336,8 @@
               "expectedStatus": "passed",
               "projectId": "chromium",
               "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 2,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 587,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2025-06-15T11:23:57.984Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
+              "results": [],
+              "status": "skipped"
             }
           ],
           "id": "6ccd34020f925acb7385-be4d5f751ed114601931",
@@ -215,15 +1346,91 @@
           "column": 7
         }
       ]
+    },
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Login.spec.js",
+      "file": "Login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Read Environment Variables",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a117b01ab0140ca0a337-f8b3c839dd845d76cf0f",
+          "file": "Login.spec.js",
+          "line": 5,
+          "column": 5
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-06-15T11:23:48.885Z",
-    "duration": 9801.788000047207,
-    "expected": 2,
-    "skipped": 0,
-    "unexpected": 1,
+    "startTime": "2025-07-29T13:56:10.635Z",
+    "duration": 204922.10700000002,
+    "expected": 3,
+    "skipped": 38,
+    "unexpected": 2,
     "flaky": 0
   }
 }
