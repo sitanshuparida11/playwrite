@@ -1,0 +1,44 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="9.801788000047207">
+<testsuite name="Chapter05\TC_02_Datadriven.spec.ts" timestamp="2025-06-15T11:23:49.986Z" hostname="chromium" tests="3" failures="1" skipped="0" time="5.366" errors="0">
+<testcase name="Data-driven Test for user: standard_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="2.897">
+</testcase>
+<testcase name="Data-driven Test for user: locked_out_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="1.882">
+<failure message="TC_02_Datadriven.spec.ts:12:7 Data-driven Test for user: locked_out_user" type="FAILURE">
+<![CDATA[  [chromium] › Chapter05\TC_02_Datadriven.spec.ts:12:7 › Data-driven Test for user: locked_out_user 
+
+    Error: Timed out 1000ms waiting for expect(locator).toHaveURL(expected)
+
+    Locator: locator(':root')
+    Expected string: "https://www.saucedemo.com/v1/inventory.html"
+    Received string: "https://www.saucedemo.com/v1/index.html"
+    Call log:
+      - expect.toHaveURL with timeout 1000ms
+      - waiting for locator(':root')
+        5 × locator resolved to <html>…</html>
+          - unexpected value "https://www.saucedemo.com/v1/index.html"
+
+
+      15 |     await page.locator('[id="password"]').fill(data.password);
+      16 |     await page.click('[id="login-button"]');
+    > 17 |     await expect(page).toHaveURL("https://www.saucedemo.com/v1/inventory.html");
+         |                        ^
+      18 |     await page.close();
+      19 |   });
+      20 | }
+        at D:\Bakka Playwright\tests\Chapter05\TC_02_Datadriven.spec.ts:17:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Data-driven Test for user: problem_user" classname="Chapter05\TC_02_Datadriven.spec.ts" time="0.587">
+</testcase>
+</testsuite>
+</testsuites>

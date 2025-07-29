@@ -1,0 +1,229 @@
+{
+  "config": {
+    "configFile": "D:\\Bakka Playwright\\playwright.config.ts",
+    "rootDir": "D:/Bakka Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "test-results.xml"
+        }
+      ],
+      [
+        "D:\\Bakka Playwright\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Bakka Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Bakka Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.52.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Chapter05\\TC_02_Datadriven.spec.ts",
+      "file": "Chapter05/TC_02_Datadriven.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Data-driven Test for user: standard_user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-15T11:23:51.056Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6ccd34020f925acb7385-c8983a29b493f6c58daa",
+          "file": "Chapter05/TC_02_Datadriven.spec.ts",
+          "line": 12,
+          "column": 7
+        },
+        {
+          "title": "Data-driven Test for user: locked_out_user",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1882,
+                  "error": {
+                    "message": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n",
+                    "stack": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n\n    at D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts:17:24",
+                    "location": {
+                      "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
+                      "column": 24,
+                      "line": 17
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[id=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(data\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[id=\"login-button\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://www.saucedemo.com/v1/inventory.html\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m }\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
+                        "column": 24,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[31mTimed out 1000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/v1/in\u001b[7mventory\u001b[27m.html\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/v1/in\u001b[7mdex\u001b[27m.html\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 1000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    5 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/v1/index.html\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'[id=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(data\u001b[33m.\u001b[39mpassword)\u001b[33m;\u001b[39m\n \u001b[90m 16 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[id=\"login-button\"]'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[32m\"https://www.saucedemo.com/v1/inventory.html\"\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 18 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 20 |\u001b[39m }\u001b[0m\n\u001b[2m    at D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts:17:24\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-15T11:23:54.520Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "D:\\Bakka Playwright\\test-results\\Chapter05-TC_02_Datadriven-7e637-st-for-user-locked-out-user-chromium\\test-failed-1.png"
+                    },
+                    {
+                      "name": "_error-context",
+                      "contentType": "application/json",
+                      "body": "eyJwYWdlU25hcHNob3QiOiItIHRleHRib3ggXCJVc2VybmFtZVwiOiBsb2NrZWRfb3V0X3VzZXJcbi0gdGV4dGJveCBcIlBhc3N3b3JkXCI6IHNlY3JldF9zYXVjZVxuLSBidXR0b24gXCJMT0dJTlwiXG4tICdoZWFkaW5nIFwiRXBpYyBzYWRmYWNlOiBTb3JyeSwgdGhpcyB1c2VyIGhhcyBiZWVuIGxvY2tlZCBvdXQuXCIgW2xldmVsPTNdJzpcbiAgLSBidXR0b25cbiAgLSB0ZXh0OiBcIkVwaWMgc2FkZmFjZTogU29ycnksIHRoaXMgdXNlciBoYXMgYmVlbiBsb2NrZWQgb3V0LlwiXG4tIGltZ1xuLSBoZWFkaW5nIFwiQWNjZXB0ZWQgdXNlcm5hbWVzIGFyZTpcIiBbbGV2ZWw9NF1cbi0gdGV4dDogc3RhbmRhcmRfdXNlciBsb2NrZWRfb3V0X3VzZXIgcHJvYmxlbV91c2VyIHBlcmZvcm1hbmNlX2dsaXRjaF91c2VyXG4tIGhlYWRpbmcgXCJQYXNzd29yZCBmb3IgYWxsIHVzZXJzOlwiIFtsZXZlbD00XVxuLSB0ZXh0OiBzZWNyZXRfc2F1Y2UifQ=="
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "D:\\Bakka Playwright\\tests\\Chapter05\\TC_02_Datadriven.spec.ts",
+                    "column": 24,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "6ccd34020f925acb7385-7884159ead7aac7e94a6",
+          "file": "Chapter05/TC_02_Datadriven.spec.ts",
+          "line": 12,
+          "column": 7
+        },
+        {
+          "title": "Data-driven Test for user: problem_user",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 587,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-06-15T11:23:57.984Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6ccd34020f925acb7385-be4d5f751ed114601931",
+          "file": "Chapter05/TC_02_Datadriven.spec.ts",
+          "line": 12,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-06-15T11:23:48.885Z",
+    "duration": 9801.788000047207,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,12 @@
+{"TestDataSet1":{
+  "TAutoskills1": {
+    "input1": "Cypress",
+    "input2": "API"
+  },
+  "TAutoskills2": {
+    "input1": "Selenium",
+    "expectedOutput": "QTP"
+  }
+
+}
+}
